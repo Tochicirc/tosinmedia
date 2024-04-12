@@ -1,0 +1,33 @@
+@font-face {
+    font-family: boldtext;
+    src: url('../../assets/fonts/AktivGrotesk-XBold.ttf');
+}
+
+
+.navbar{
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+
+    a{
+        color: black;
+    }
+
+    .right_div{
+        font-size: 20px;
+        span{
+            font-family: boldtext;
+        }
+    }
+
+    .mid_div{
+        display: flex;
+        // justify-content: space-around;
+        gap: 3rem;
+    }
+}

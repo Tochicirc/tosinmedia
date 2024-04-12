@@ -1,18 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { TmLogo, desktop } from './assets'
+import './app.scss'
+import Layout from './Containers/Layout/Layout'
+
 
 function App() {
 
   return (
-    <>
-      <div>
-        <img src="/tm-logo.png" alt="Tosin Media" />
-        <h1>Tosin Media Official Website</h1>
-      </div>
-    </>
+    <div className='app'>
+      <Layout/>
+    </div>
   )
 }
 
 export default App
+ 

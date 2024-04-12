@@ -1,0 +1,1 @@
+@font-face{font-family:boldtext;src:url("../../assets/fonts/AktivGrotesk-XBold.ttf")}.navbar{position:relative;top:0;display:flex;flex-direction:row;justify-content:space-between;align-items:center;color:#000;font-size:16px}.navbar a{color:#000}.navbar .right_div{font-size:20px}.navbar .right_div span{font-family:boldtext}.navbar .mid_div{display:flex;gap:3rem}
