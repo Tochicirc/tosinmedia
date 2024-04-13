@@ -1,56 +1,58 @@
 .hero_sect{
 
     .hero_img{
-        position:relative;
-        text-align: center;
+        position:relative ;
+        text-align: center ;
 
-        z-index: -2;
+        z-index: -2 ;
         img{
-            opacity: 0.15;
+            opacity: 0.15 ;
             position: absolute;
-            left:35%;
+            left:34% ;
         }
 
         
     }
 
     .hero_header{
-        display: flex;
-        flex-direction: column;
+        display: flex ;
+        flex-direction: column ;
 
         .header-text{
-            justify-content: center;
-            text-align: center;
-            display: flex;
-            width: 100%;
+            justify-content: center ;
+            text-align: center ;
+            display: flex ;
+            width: 100% ;
             h1{
-                width: 620px;
+                width: 620px ;
             }
         }
 
 
         .hero_para{
-            justify-content: center;
-            text-align: center;
-            display: flex;
-            width: 100%;
-            margin-top: -2em;
+            justify-content: center ;
+            text-align: center ;
+            display: flex ;
+            width: 100% ;
+            margin-top: -2em ;
+
+            p{
+                text-align: center;
+                width: 650px ;
+                line-height: 30px ;
+            }
         }
 
-        p{
-            text-align: center;
-            width: 650px;
-            line-height: 30px;
-        }
+        
     }
 
     .buttons{
-        margin-top: 1rem;
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-content: center;
-        gap: 2rem;
+        margin-top: 1rem ;
+        display: flex ;
+        flex-direction: row ;
+        text-align: center ;
+        justify-content: center ;
+        gap: 2rem ;
     }
 
   

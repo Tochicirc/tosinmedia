@@ -1,0 +1,30 @@
+$btn_color: #6C8595;
+$text-color: #B3B4B7;
+
+.btn_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    .markComp-btn{
+        width: fit-content;
+        background: $btn_color;
+        padding: 0.2rem 1.5rem;
+        border-radius: 80px;
+    }
+
+    .markComp-text{
+        font-size: 12px;
+        font-family: medtext;
+    }
+
+    .markComp-art{
+        p{
+            margin-top: -.5em;
+            color: $text-color;
+            font-size: 10px;
+        }
+    }
+}

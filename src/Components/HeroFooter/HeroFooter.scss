@@ -1,10 +1,14 @@
 .hero_footer{
     // display: flex;
     // flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    hr{
+        margin-bottom: -1rem;
+    }
 
     .ul_div{
         // display: flex;

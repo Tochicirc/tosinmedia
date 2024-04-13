@@ -12,13 +12,18 @@ import brandImage from '../assets/icons/brand-image 1.svg';
 import arrowRight from '../assets/icons/arrow.svg';
 import support1 from '../assets/icons/support 1.svg';
 import manager from '../assets/icons/manager 1.svg';
+import handCuff from '../assets/icons/handcuffs.svg'
+
+import animation from '../assets/drive-download-20240409T144126Z-001/animation.svg'
 
 
 
 
 export {
+    animation,
     desktop,
     desktop1,
+    handCuff,
     linkedln,
     whiteLogo,
     twitterBanner,

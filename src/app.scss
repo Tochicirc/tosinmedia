@@ -7,22 +7,56 @@
     src: url('./assets/fonts/Poppins-ExtraBold.ttf');
 }
 @font-face {
+    font-family: jua;
+    src: url('./assets/fonts/Jua-Regular.ttf');
+}
+@font-face {
     font-family: regtext;
     src: url('./assets/fonts/AktivGrotesk-Regular.ttf');
 }
+@font-face {
+    font-family: boldtext;
+    src: url('./assets/fonts/AktivGrotesk-XBold.ttf');
+}
+
+@font-face {
+    font-family: medtext;
+    src: url('./assets/fonts/AktivGrotesk-Medium.ttf');
+}
+
 
 body{
     color: black;
+    margin: 0;
 }
+
+
+
+
 .header{
     font-family: popreg;
-    font-size: 70px;
+    font-size: 64px;
 }
+
 
 .norm{
     font-family: regtext;
-    font-size: 18px;
+    font-size: 20px;
 }
+
+.smalheader{
+    font-family: popreg;
+}
+
+.small_text{
+    font-size: 10px;
+    font-family: regtext;
+}
+
+.text{
+    font-family: regtext;
+}
+
 
 a{
     text-decoration: none;
@@ -30,9 +64,9 @@ a{
 
 .app{
     text-align: center;
-    margin: 0 4rem ;
 }
 
 .container{
-    padding: 2rem 0;
+    padding-top: 1em ;
+    margin: 0 4rem ;
 }

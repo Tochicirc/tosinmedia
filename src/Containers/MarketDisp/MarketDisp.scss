@@ -1,0 +1,66 @@
+$dark_bluebbg : #0B333E;
+
+.market_sect{
+    background: #0B333E;
+    color: white;
+    padding: 0;
+
+    .marketCont{
+        display: flex;
+        flex-direction: column;
+
+        .mark_header{
+
+            h3{
+                font-size: 25px;
+            }
+        }
+
+        .mark_midDiv{
+            display: flex;
+            flex-direction: row;
+            // justify-content: center;
+            align-content: center;
+            width: 100%;
+            text-align: center;
+
+            .midDiv_Cont-left{
+                display: flex;
+                flex-direction: column;
+                // width: 100%;
+                justify-content: space-between;
+            }
+
+            .midDiv_img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%; /* Optional: Adjust as needed */
+
+                img {
+                    max-width: 500px;
+                    max-height: 500px;
+                    width: auto; /* Ensure aspect ratio is maintained */
+                    height: auto; /* Ensure aspect ratio is maintained */
+                }
+
+                // &::before{
+                //     content:url('../../assets/drive-download-20240409T144126Z-001/animation.svg');
+                //     position: absolute;
+                //     left: 13.5%;
+                //     top: 16.5%;
+                //     width: 100%;
+                // }
+            }
+        }
+
+        .jua_Div{
+            text-align: center;
+
+            .jua-font{
+                font-family: jua;
+                font-size: 25px;
+            }
+        }
+    }
+}
