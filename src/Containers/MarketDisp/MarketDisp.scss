@@ -1,28 +1,31 @@
-$dark_bluebbg : #0B333E;
-
+@import '../../Varial.scss';
 .market_sect{
-    background: #0B333E;
+    background: $dark_bluebbg;
     color: white;
     padding: 0;
 
     .marketCont{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         .mark_header{
 
             h3{
-                font-size: 25px;
+                font-size: 32px;
+                font-family: popreg;
             }
         }
 
         .mark_midDiv{
-            display: flex;
-            flex-direction: row;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            // flex-direction: row;
             // justify-content: center;
-            align-content: center;
-            width: 100%;
-            text-align: center;
+            // align-content: center;
+            // width: 100%;
+            // text-align: center;
 
             .midDiv_Cont-left{
                 display: flex;
@@ -38,8 +41,8 @@ $dark_bluebbg : #0B333E;
                 height: 100%; /* Optional: Adjust as needed */
 
                 img {
-                    max-width: 500px;
-                    max-height: 500px;
+                    max-width: 400px;
+                    max-height: 400px;
                     width: auto; /* Ensure aspect ratio is maintained */
                     height: auto; /* Ensure aspect ratio is maintained */
                 }
@@ -59,7 +62,7 @@ $dark_bluebbg : #0B333E;
 
             .jua-font{
                 font-family: jua;
-                font-size: 25px;
+                font-size: 32px;
             }
         }
     }

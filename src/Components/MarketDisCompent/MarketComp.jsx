@@ -3,7 +3,7 @@ import './MarketComp.scss'
 const MarketComp = ({btn, text, article}) => {
   return (
     <div className='btn_div'>
-        <div className='markComp-btn small_text '>
+        <div className='markComp-btn '>
             <p>
                 {btn}
             </p>

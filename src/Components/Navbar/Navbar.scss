@@ -3,6 +3,11 @@
     src: url('../../assets/fonts/AktivGrotesk-XBold.ttf') 
 }
 
+@import '../../../src/Varial.scss';
+
+.navbarHead{
+    margin-top:-1rem ;
+}
 
 .navbar{
     position: relative; 
@@ -12,13 +17,15 @@
     justify-content: space-between ;
     align-items: center ;
     color: black ;
-    font-size: 15px ;
-
+    font-size: $linksIze;
     a{
         color: black ;
     }
 
     .right_div{
+        p{
+            font-size: 25px;
+        }
         span{
             font-family: boldtext ;
         }
@@ -28,6 +35,5 @@
         display: flex ;
         // justify-content: space-around 
         gap: 3rem ;
-        font-size: 15px;
     }
 }

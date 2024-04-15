@@ -11,12 +11,17 @@ $text-color: #B3B4B7;
     .markComp-btn{
         width: fit-content;
         background: $btn_color;
-        padding: 0.2rem 1.5rem;
+        padding: 0 8px;
         border-radius: 80px;
+
+        p{
+            font-size: 12px;
+            font-family: regtext;
+        }
     }
 
     .markComp-text{
-        font-size: 12px;
+        font-size: 18px;
         font-family: medtext;
     }
 
@@ -24,7 +29,7 @@ $text-color: #B3B4B7;
         p{
             margin-top: -.5em;
             color: $text-color;
-            font-size: 10px;
+            font-size: 14px;
         }
     }
 }

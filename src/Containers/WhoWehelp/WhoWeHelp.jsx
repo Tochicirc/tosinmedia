@@ -1,10 +1,11 @@
+import Button2 from '../../Components/Button2/Button2'
 import { handCuff } from '../../assets'
 import './WhoWeHelp.scss'
 
 const WhoWeHelp = () => {
 
   return (
-    <section className='container'>
+    <section className='container Wwh_sect'>
         <div className='Wwh_upper'>
             <div className='wwh-left'>
                 <div className='wwh-left-btn'>
@@ -44,6 +45,15 @@ const WhoWeHelp = () => {
                     <br/>not for you
                 </p>
             </div>
+        </div>
+
+        <Button2 text={'Our 90-day break-the-bank lead gen offer'} varient={'#0b333eda'}/>
+
+        <div className='wwh_lastHeader'>
+            <h1 className=''>
+                We’ll drive in 30+ New Cases Per Month 
+                or we’ll work for you for free
+            </h1>
         </div>
     </section>
   )

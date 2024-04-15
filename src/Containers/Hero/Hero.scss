@@ -1,14 +1,23 @@
+@import '../../../src/Varial.scss';
+
 .hero_sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .hero_img{
-        position:relative ;
-        text-align: center ;
-
-        z-index: -2 ;
+        // position:relative ;
+        // text-align: center ;
+            padding: 2em 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: -2 ;
+            margin-top: -3rem;
         img{
             opacity: 0.15 ;
             position: absolute;
-            left:34% ;
+            // left:50% ;
         }
 
         
@@ -17,6 +26,7 @@
     .hero_header{
         display: flex ;
         flex-direction: column ;
+        margin-top: -2rem;
 
         .header-text{
             justify-content: center ;
@@ -25,6 +35,7 @@
             width: 100% ;
             h1{
                 width: 620px ;
+                // line-height: 55px;
             }
         }
 
@@ -37,17 +48,17 @@
             margin-top: -2em ;
 
             p{
-                text-align: center;
-                width: 650px ;
-                line-height: 30px ;
-            }
+            text-align: center;
+            width: 650px ;
+            line-height: 30px ;
+        }
         }
 
         
     }
 
     .buttons{
-        margin-top: 1rem ;
+        margin-top: 6rem ;
         display: flex ;
         flex-direction: row ;
         text-align: center ;

@@ -29,16 +29,14 @@ const HeroFooter = () => {
   return (
     <div className='hero_footer'>
         <hr/>
-        <div className='ul_div'>
-            <ul>
-                {footer.map(item =>(
-                    <li key={item.icon}>
-                        <div><img src={item.icon} alt={item.icon} width={25}/></div>
-                        <p>{item.text}</p>
-                    </li>
-                ))}
-            </ul>
-        </div>
+          <ul className='ul_div'>
+              {footer.map(item =>(
+                  <li key={item.icon}>
+                      <div><img src={item.icon} alt={item.icon} width={25}/></div>
+                      <p>{item.text}</p>
+                  </li>
+              ))}
+          </ul>
     </div>
   )
 }

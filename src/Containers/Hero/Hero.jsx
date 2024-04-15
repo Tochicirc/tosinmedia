@@ -37,9 +37,8 @@ const Hero = () => {
           <Button text={'Our Proccess'}  variant='E3EEEF'/>      
       </div>
 
-      <div>
+      
         <HeroFooter/>
-      </div>
     </section>
   )
 }

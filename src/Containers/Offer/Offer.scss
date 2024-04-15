@@ -1,0 +1,49 @@
+@import '../../../src/Varial.scss';
+
+
+
+.offer_sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .upperOffer{
+        hr{
+            width: 700px;
+        }
+        p{
+            // font-size: 12px;
+            font-family: regtext;
+        }
+    }
+
+    .Social_media{
+        width: fit-content;
+        background: $socialBg;
+        padding: 1rem 4rem;
+        padding-bottom: 2.5rem;
+        border-radius: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .socialHeader{
+            // .header{
+            //     margin-top: rem;
+            // }
+            p{
+                margin-top: -2.5rem;
+                font-size: $genfontsiz;
+                font-weight: 300;
+                font-family: $generalFon;
+                color: $fadedBlack;
+                font-size: $semiSocial;
+            }
+        }
+
+        .contentBtn{
+            margin-top: 5rem;
+        }
+
+    }
+}

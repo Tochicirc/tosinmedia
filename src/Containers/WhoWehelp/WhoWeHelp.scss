@@ -2,68 +2,101 @@ $buttonColor: #DEF6E6;
 $font: regtext;
 $headerfont:25px;
 $pFont:10px;
+$dark_bluebbg : #0b333eda;
 
-.Wwh_upper{
-    font-family: $font;
+
+.Wwh_sect{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding:6rem 0;
 
-    h3{
-        font-weight: 400;
-        font-family: boldtext;
-        font-size: 25px;
-    }
-    p{
-        font-size: $pFont;
-        margin-top: -1rem;
-    }
-    .wwh-left{
-        
-        text-align: left;
-        
-        .wwh-left-btn{
-            font-weight: bold;
-            background: $buttonColor;
-            width: fit-content;
-            border-radius: 80px;
-            padding: .5em 1.5em;
-            color: #14A768;
-
+// Upper side of the section
+    .Wwh_upper{
+        font-family: $font;
+        display: flex;
+        flex-direction: row;
+        gap: 25rem;
+        align-items: center;
+        padding:5rem 0;
+    
+        h3{
+            font-weight: 400;
+            font-family: boldtext;
+            font-size: 25px;
+        }
+        p{
+            font-size: $pFont;
+            margin-top: -1rem;
+        }
+        .wwh-left{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            
+            .wwh-left-btn{
+                font-weight: bold;
+                background: $buttonColor;
+                width: fit-content;
+                border-radius: 80px;
+                padding: .5em 1.5em;
+                color: #14A768;
+    
+                p{
+                    margin: 0;
+                }
+            }
+       
+        }
+    
+        .wwh-right{
+           padding: 0 1rem .5rem 1rem;
+            border-radius: 20px;
+            border: 1.5px #21629f38 solid ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
             p{
-                margin: 0;
+                text-align: left;
             }
         }
-   
-    }
-
-    .wwh-right{
-       padding: 0 1rem .5rem 1rem;
-        border-radius: 20px;
-        border: 1.5px #21629f38 solid ;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        p{
-            text-align: left;
-        }
-    }
-
-    .wwh-right_img{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex: 1;
-        padding: 0;
-        img{
-            margin-bottom: -12rem;
-            transform: rotate(180deg);
+    
+        .wwh-right_img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
             padding: 0;
+            img{
+                margin-bottom: -12rem;
+                transform: rotate(180deg);
+                padding: 0;
+            }
         }
+    
+    }
+    
+    
+    // Middle sectoin
+    
+    .wwh_midText{
+        width: fit-content;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $dark_bluebbg;
+        padding:.2rem 5rem;
+        text-align: center;
+        flex: 1;
     }
 
+    .wwh_lastHeader{
+        font-family: jua;
+        max-width: 700px;
+
+        font-size: 25px;
+    }
 }
+
