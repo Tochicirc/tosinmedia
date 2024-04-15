@@ -13,13 +13,27 @@ import arrowRight from '../assets/icons/arrow.svg';
 import support1 from '../assets/icons/support 1.svg';
 import manager from '../assets/icons/manager 1.svg';
 import handCuff from '../assets/icons/handcuffs.svg'
-
+import phot from '../assets/icons/phot.svg'
+import laught from '../assets/icons/laught.svg'
+import pencil from '../assets/icons/pencil.svg'
+import smile from '../assets/icons/smile.svg'
+import file from '../assets/icons/file.svg'
+import plus from '../assets/icons/plus.svg'
 import animation from '../assets/drive-download-20240409T144126Z-001/animation.svg'
-
+import camcoder from '../assets/icons/camcoder.svg'
+import group from '../assets/icons/group.svg'
 
 
 
 export {
+    group,
+    camcoder,
+    smile,
+    pencil,
+    plus,
+    file,
+    phot,
+    laught,
     animation,
     desktop,
     desktop1,

@@ -1,5 +1,6 @@
 import Button2 from '../../Components/Button2/Button2'
 import Content from './Content/Content'
+import ContentOptions from './ContentOptions/ContentOptions'
 import './Offer.scss'
 import Socialcontent from './Socialcontent/Socialcontent'
 // import "../../Varial.scss"
@@ -44,7 +45,7 @@ const Offer = () => {
           </div>
 
           <div className='contentBtn'>
-            <Button2 text={'Content options'} varient={'#0A66C2'}/>
+            <ContentOptions/>
           </div>
         </div>   
     </section>
