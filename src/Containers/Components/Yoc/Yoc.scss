@@ -1,0 +1,44 @@
+@import '../../../Varial.scss';
+
+
+.you_sect{
+    background: $socialBg;
+    width: 100%;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+
+    .yoc_header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        h1{
+            font-family: popreg;
+            font-size: 64px;
+            margin-bottom: -1.5rem;
+        }
+
+        p{
+            font-size: 18px;
+            font-family: regtext;
+            color: $fadedBlack;
+        }
+
+    }
+
+    .seo_text{
+        display: flex;
+        flex-direction: column;
+        background:$bgSocial;
+        padding: 25px;
+        font-family: regtext;
+        border-radius: 9px;
+    }
+
+}

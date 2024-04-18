@@ -1,0 +1,16 @@
+@import '../../../../Varial.scss';
+
+.offerfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background: $semidark_bg;
+    width: fit-content;
+    padding:2rem 5rem ;
+
+    p{
+        color: white;
+        font-family: regtext;
+    }
+}

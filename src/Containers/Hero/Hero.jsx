@@ -33,7 +33,8 @@ const Hero = () => {
       </div>
 
       <div className='buttons'>
-          <Button text={'Your Demo'} icon={arrowRight} variant='FFDE02'/>
+          <Button text={'Your Demo'} link={'https://calendly.com/tosinmedia-address/demo-call?month=2024-04'} 
+          icon={arrowRight} variant='FFDE02'/>
           <Button text={'Our Proccess'}  variant='E3EEEF'/>      
       </div>
 

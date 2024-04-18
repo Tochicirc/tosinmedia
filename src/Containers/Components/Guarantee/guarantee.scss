@@ -1,0 +1,79 @@
+ 
+
+.guarantee_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .guaranteeImg{
+        
+        // position: absolute;
+        margin-bottom: -12rem;
+        z-index: 2;
+    }
+
+    .guarantee{
+        position: relative;
+        background: #EE9B00;
+        border-radius: 28px;
+        padding: 10px 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8rem;
+        width: fit-content;
+        // max-width: 90vw;
+        h1{
+            font-size: 64px;
+            color:white;
+            font-family: popreg;
+            margin-bottom: -1rem;
+            width: 100%;
+        }
+    
+        h3{
+            width: 100%;
+            font-size: 25px;
+            font-family: popreg;
+            color: white;
+            max-width: 60vw; 
+    
+        }
+    }
+}
+
+
+
+// price and offer area
+
+
+.pricOffr{
+    margin-top: 5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 5rem;
+
+
+    // .background-image {
+    //     background-image: url('../../../assets/drive-download-20240409T144126Z-001//rockbg.jpg');
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     background-size: cover;
+    //     opacity: .3;
+    //     height: 100%;
+    //     z-index: -1; /* Ensure the background is behind the content */
+    // }
+
+
+    h3{
+        font-family: jua;
+        font-size: 25px;
+    }
+}

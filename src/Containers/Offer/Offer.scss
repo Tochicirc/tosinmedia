@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 3rem;
+
 
     .upperOffer{
         hr{
@@ -18,10 +20,10 @@
     }
 
     .Social_media{
-        width: fit-content;
+        // width: fit-content;
         background: $socialBg;
         padding: 1rem 4rem;
-        padding-bottom: 2.5rem;
+        padding-bottom: 5rem;
         border-radius: 28px;
         display: flex;
         flex-direction: column;
@@ -46,4 +48,7 @@
         }
 
     }
+
+    
+
 }

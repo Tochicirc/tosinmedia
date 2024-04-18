@@ -1,0 +1,46 @@
+@import '../../../Varial.scss';
+
+.cmr_sect{
+    background: $socialBg;
+    width: 100%;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+
+    .cmr_header{
+        margin-bottom: 2rem;
+        h1{
+            font-size: 64px;
+            font-family: popreg;
+            margin-bottom: -1.5rem;
+        }
+
+        p{
+            font-family: regtext;
+            font-size: 18px;
+            color: $fadedBlack;
+        }
+    }
+
+    .cmr_text{
+            display: flex;
+            background:$bgSocial;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            border-radius: 9px;
+            width: fit-content;
+
+        p{
+            font-family: regtext;
+            font-size: 15px;
+            color: $fadedBlack;
+            width: fit-content;
+        }
+    }
+
+}        

@@ -1,0 +1,68 @@
+@import '../../../Varial.scss';
+
+.seo_sect{
+    background: $socialBg;
+    width: 100%;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+
+    p{
+        color: $fadedBlack;
+
+    }
+
+    .seo_header{
+        
+        h1{
+            font-size: 64px;
+            font-family: popreg;
+            margin-bottom: -2rem;
+        }
+
+         p{
+            font-size: 20px;
+            font-family: regtext;
+        }
+    }
+
+    .seo_items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        column-gap: 2rem;
+        margin: 2rem;
+
+        .seo_item{
+            display: flex;
+            background:$bgSocial;
+            flex-direction: column;
+            width: fit-content;
+            padding: 2rem;
+            border-radius: 9px;
+
+            h3{
+                font-family: regtext;
+                font-size: 18px;
+            }
+
+            p{
+                font-family: regtext;
+            }
+
+            
+        }
+    }
+
+    footer{
+        p{
+            font-family: regtext;
+            font-size: 20px;
+            font-weight: 500;
+            color: black;
+        }
+    }
+}

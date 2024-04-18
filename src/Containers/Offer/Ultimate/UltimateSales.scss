@@ -1,0 +1,57 @@
+@import '../../../Varial.scss';
+
+
+.Ultimste_sect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .ultimateHeader{
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin-top: -2.5rem;
+            font-size: $genfontsiz;
+            font-weight: 300;
+            font-family: $generalFon;
+            color: $fadedBlack;
+            font-size: $semiSocial;
+        }
+    }
+
+    .UltimateOthers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+
+        h3{
+            font-family: justan;
+            font-size: 38px;
+            line-height: 33px;
+            font-weight: 400;
+        }
+        .Ultimatothers-up{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            .right{
+                transform: rotate(90deg);
+            }
+
+            .left{
+                transform: rotate(-90deg);
+            }
+            
+        }
+    }
+}

@@ -20,7 +20,8 @@ const Navbar = () => {
             </div>
 
             <div className='left_div'>
-                <Button text={'Your Demo'} icon={arrowRight} variant='FFDE02'/>
+                <Button text={'Your Demo'} link={'https://calendly.com/tosinmedia-address/demo-call?month=2024-04'}
+                 icon={arrowRight} variant='FFDE02'/>
             </div>
         </nav>
     </header>

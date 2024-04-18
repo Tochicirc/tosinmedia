@@ -4,7 +4,7 @@
     display: grid;
     font-family: regtext;
     margin-top: 4rem;
-    grid-column-gap:15rem ;
+    grid-column-gap:10rem ;
     grid-row-gap:4rem ;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -16,8 +16,9 @@
 
     .cto{
         background: $bgSocial;
-        padding: 15px 15px 0;
+        padding: 15px 2rem 0;
         border-radius: 9px;
+        // width: fit-content;
 
         .cto_h3{
             font-size: 18px;
@@ -37,6 +38,7 @@
 
         .cto_p{
             font-size: 14px;
+            width: fit-content;
             p{
                 margin-bottom:2rem;
                 
