@@ -1,5 +1,6 @@
 import Navbar from "../../Components/Navbar/Navbar"
 import Bonus from "../Bonus/Bonus"
+import CalenderCont from "../CalenderContainer/CalenderCont"
 import Footer from "../Footer/Footer"
 import Hero from "../Hero/Hero"
 import MarketDisp from "../MarketDisp/MarketDisp"
@@ -15,6 +16,7 @@ const Layout = () => {
             <MarketDisp/>
             <WhoWeHelp/>
             <Offer/>
+            <CalenderCont/>
             <Bonus/>
             <hr/>
             <Footer/>

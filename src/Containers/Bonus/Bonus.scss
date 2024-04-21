@@ -14,6 +14,13 @@
         align-items: center;
         justify-content: center;
 
+        .bonus_h3{
+            h3{
+                font-size: 20px;
+                width: 100%;
+            }
+        }
+
         .bonus_h1{
             background: $semidark_bg;
             width: fit-content;

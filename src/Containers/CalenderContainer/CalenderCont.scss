@@ -1,0 +1,16 @@
+@import '../../Varial.scss';
+
+.calenderCont_sect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    // width: 100%;
+    .calender_header{
+        h3{
+            font-family: jua;
+            font-size: 20px;
+            width: 100%;
+        }
+    }
+}
